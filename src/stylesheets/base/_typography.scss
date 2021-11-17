@@ -13,14 +13,20 @@ h1, h2, h3, h4, h5, p {
 }
 
 h1 {
+  margin-bottom: 4px;
+
   font-size: 25px;
+  font-weight: bold;
+
+  @include respond-to("lg-down") {
+    font-size: 20px;
+  }
 }
 
 h3 {
-  font-size: 15px;
-}
+  margin-bottom: 0;
 
-.website {
-  color: #fff;
-  font-size: 11px;
+  color: #f3bf99;
+  font-size: 15px;
+  line-height: 1;
 }

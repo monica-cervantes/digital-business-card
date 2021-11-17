@@ -1,0 +1,65 @@
+//main: ../main.scss
+
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the digital card of the site/application.
+// -----------------------------------------------------------------------------
+.details-wrapper {
+  padding: 20px 35px;
+
+  h2 {
+    margin-bottom: 2px;
+
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 11px;
+  }
+}
+
+.primary-details {
+  text-align: center;
+
+  .website {
+    color: #fff;
+    font-size: 11px;
+    
+    &:hover {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  margin-bottom: 22px;
+
+  a {
+    padding: 6px 27px;
+    
+    color: #1E1F26;
+    font-size: 12px;
+    font-weight: 500;
+
+    background-color: #fff;
+    border-radius: 6px;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    &:last-child {
+      color: #fff;
+
+      background: #5093E2;
+    }
+  }
+
+  svg {
+    margin-right: 8px;
+  }
+}

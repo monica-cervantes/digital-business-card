@@ -3,3 +3,20 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
+
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px 10px;
+
+  background-color: #161619;
+
+  a {
+    color: #918e9b;
+
+    &:hover {
+      color: #918e9b;
+    }
+  }
+}
