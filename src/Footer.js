@@ -4,21 +4,24 @@ import { faTwitterSquare, faFacebookSquare, faInstagramSquare, faLinkedin, faGit
 export default function Footer() {
   return (
     <footer>
-      <a href="https://twitter.com/mnccervantes">
-        <FontAwesomeIcon icon={faTwitterSquare} size="lg" />
-      </a>
-      <a href="https://www.facebook.com/monicalouise.cervantes">
-        <FontAwesomeIcon icon={faFacebookSquare} size="lg" />
-      </a>
-      <a href="https://www.instagram.com/cangcervantes/">
-        <FontAwesomeIcon icon={faInstagramSquare} size="lg" />
-      </a>
-      <a href="https://www.linkedin.com/in/monicalouisecervantes/">
-        <FontAwesomeIcon icon={faLinkedin} size="lg" />
-      </a>
-      <a href="https://github.com/monica-cervantes">
-        <FontAwesomeIcon icon={faGithubSquare} size="lg" />
-      </a>
+      <div className="social-wrapper">
+        <a href="https://twitter.com/mnccervantes">
+          <FontAwesomeIcon icon={faTwitterSquare} size="lg" />
+        </a>
+        <a href="https://www.facebook.com/monicalouise.cervantes">
+          <FontAwesomeIcon icon={faFacebookSquare} size="lg" />
+        </a>
+        <a href="https://www.instagram.com/cangcervantes/">
+          <FontAwesomeIcon icon={faInstagramSquare} size="lg" />
+        </a>
+        <a href="https://www.linkedin.com/in/monicalouisecervantes/">
+          <FontAwesomeIcon icon={faLinkedin} size="lg" />
+        </a>
+        <a href="https://github.com/monica-cervantes">
+          <FontAwesomeIcon icon={faGithubSquare} size="lg" />
+        </a>
+      </div>
+      <small>Design from <a href="https://scrimba.com/">Scrimba</a></small>
     </footer>
   )
 }

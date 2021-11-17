@@ -16,6 +16,8 @@ body,
   display: flex;
   padding: 15px 0;
   min-height: 100%;
+
+  background-color: #23252c;
 }
 
 /**
@@ -47,15 +49,4 @@ input[type="text"] {
   -moz-appearance: none;
   appearance: none;
   -webkit-focus-ring-color: none;  outline: none;
-}
-
-.App {
-  background-color: #23252c;
-}
-
-.card-wrapper {
-  max-width: 300px;
-  margin: auto;
-
-  background-color: #1a1b21;
 }

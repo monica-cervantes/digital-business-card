@@ -17,7 +17,7 @@ function App() {
           <div className="primary-details">
             <h1>Monica Cervantes</h1>
             <h3>Frontend Developer</h3>
-            <a href="monicacervantes.com" className="website">monicacervantes.com</a>
+            <a href="https://monicacervantes.com/" className="website">monicacervantes.com</a>
             <div className="button-wrapper">
               <a href="mailto:cervantesmonicalouise@yahoo.com">
                 <FontAwesomeIcon icon={faEnvelope} />

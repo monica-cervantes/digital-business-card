@@ -3,6 +3,14 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the digital card of the site/application.
 // -----------------------------------------------------------------------------
+
+.card-wrapper {
+  max-width: 300px;
+  margin: auto;
+
+  background-color: #1a1b21;
+}
+
 .details-wrapper {
   padding: 20px 35px;
 
@@ -41,7 +49,7 @@
   a {
     padding: 6px 27px;
     
-    color: #1E1F26;
+    color: #1e1f26;
     font-size: 12px;
     font-weight: 500;
 
@@ -55,7 +63,7 @@
     &:last-child {
       color: #fff;
 
-      background: #5093E2;
+      background: #5093e2;
     }
   }
 

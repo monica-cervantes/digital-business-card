@@ -12020,6 +12020,7 @@ body,
   display: flex;
   padding: 15px 0;
   min-height: 100%;
+  background-color: #23252c;
 }
 
 /**
@@ -12052,16 +12053,6 @@ input[type="text"] {
   appearance: none;
   -webkit-focus-ring-color: none;
   outline: none;
-}
-
-.App {
-  background-color: #23252c;
-}
-
-.card-wrapper {
-  max-width: 300px;
-  margin: auto;
-  background-color: #1a1b21;
 }
 
 @font-face {
@@ -12133,14 +12124,18 @@ h3 {
 }
 
 footer {
+  padding: 15px 12px 5px;
+  text-align: center;
+  background-color: #161619;
+}
+
+footer .social-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  padding: 15px 10px;
-  background-color: #161619;
 }
 
 footer a {
@@ -12149,6 +12144,21 @@ footer a {
 
 footer a:hover {
   color: #918e9b;
+}
+
+footer small {
+  color: #918e9b;
+  font-size: 10px;
+}
+
+footer small a {
+  text-decoration: underline;
+}
+
+.card-wrapper {
+  max-width: 300px;
+  margin: auto;
+  background-color: #1a1b21;
 }
 
 .details-wrapper {
@@ -12192,7 +12202,7 @@ footer a:hover {
 
 .button-wrapper a {
   padding: 6px 27px;
-  color: #1E1F26;
+  color: #1e1f26;
   font-size: 12px;
   font-weight: 500;
   background-color: #fff;
@@ -12205,7 +12215,7 @@ footer a:hover {
 
 .button-wrapper a:last-child {
   color: #fff;
-  background: #5093E2;
+  background: #5093e2;
 }
 
 .button-wrapper svg {
